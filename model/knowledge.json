@@ -1,0 +1,1826 @@
+[
+  {
+    "chain": "Base",
+    "project": "aave-v3",
+    "symbol": "WEETH",
+    "tvlUsd": 184433292,
+    "apyBase": 0.00471,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "aave-v3",
+    "symbol": "CBBTC",
+    "tvlUsd": 121048872,
+    "apyBase": 0.34588,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "MWETH",
+    "tvlUsd": 67586657,
+    "apyBase": 2.15287,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "aave-v3",
+    "symbol": "USDC",
+    "tvlUsd": 53954664,
+    "apyBase": 5.82898,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "aave-v3",
+    "symbol": "WETH",
+    "tvlUsd": 51475610,
+    "apyBase": 1.51353,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "CBBTC",
+    "tvlUsd": 42359879,
+    "apyBase": 0.07203,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "MWUSDC",
+    "tvlUsd": 39244099,
+    "apyBase": 4.51314,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "upshift",
+    "symbol": "UPLBTC",
+    "tvlUsd": 36862813,
+    "apyBase": 2.69075,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "IONICWETH",
+    "tvlUsd": 32458671,
+    "apyBase": 3.50206,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "MWCBBTC",
+    "tvlUsd": 28753952,
+    "apyBase": 0.15474,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "GTWETHC",
+    "tvlUsd": 26743767,
+    "apyBase": 5.0892,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "SPARKUSDC",
+    "tvlUsd": 24883485,
+    "apyBase": 4.26076,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "GTLBTCC",
+    "tvlUsd": 24596427,
+    "apyBase": 0.44639,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "spectra-v2",
+    "symbol": "UPLBTC",
+    "tvlUsd": 24158086,
+    "apyBase": 2.47607,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "spectra-v2",
+    "symbol": "UPLBTC",
+    "tvlUsd": 24158086,
+    "apyBase": 7.74905,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "9SETHCORE",
+    "tvlUsd": 22804445,
+    "apyBase": 1.30795,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "AERO",
+    "tvlUsd": 21390756,
+    "apyBase": 0.35344,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "reserve-protocol",
+    "symbol": "BSDETH",
+    "tvlUsd": 21326461,
+    "apyBase": 2.47304,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "aave-v3",
+    "symbol": "WSTETH",
+    "tvlUsd": 21267825,
+    "apyBase": 0.05893,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "WSTETH",
+    "tvlUsd": 20684681,
+    "apyBase": 0.00487,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "RE7WETH",
+    "tvlUsd": 18785880,
+    "apyBase": 4.42196,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "USDC",
+    "tvlUsd": 17910106,
+    "apyBase": 6.11,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "SMUSDC",
+    "tvlUsd": 17606266,
+    "apyBase": 4.53092,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "ETH",
+    "tvlUsd": 14881636,
+    "apyBase": 0.7233,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "GTCBBTCC",
+    "tvlUsd": 14708253,
+    "apyBase": 1.06898,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "CBETH",
+    "tvlUsd": 14480959,
+    "apyBase": 0.01521,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "USDC",
+    "tvlUsd": 12607503,
+    "apyBase": 8.20971,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "IONICUSDC",
+    "tvlUsd": 11671522,
+    "apyBase": 5.0732,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "bmx-classic-perps",
+    "symbol": "BMX",
+    "tvlUsd": 9022172,
+    "apyBase": 4.75518,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "MWEURC",
+    "tvlUsd": 8913943,
+    "apyBase": 5.05135,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "aave-v3",
+    "symbol": "CBETH",
+    "tvlUsd": 8143726,
+    "apyBase": 0.24496,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "WEETH",
+    "tvlUsd": 8113150,
+    "apyBase": 0.00752,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "avantis",
+    "symbol": "USDC",
+    "tvlUsd": 7910193,
+    "apyBase": 6.08494,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "WSTETH",
+    "tvlUsd": 7521986,
+    "apyBase": 0.11,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "USDC",
+    "tvlUsd": 6782620,
+    "apyBase": 4.89534,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "WETH",
+    "tvlUsd": 6681917,
+    "apyBase": 5.30686,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "AERO",
+    "tvlUsd": 6513252,
+    "apyBase": 8.44792,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "MEUSD",
+    "tvlUsd": 6079608,
+    "apyBase": 4.46145,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "GTUSDCC",
+    "tvlUsd": 6034706,
+    "apyBase": 8.90833,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "ETH",
+    "tvlUsd": 5423631,
+    "apyBase": 1.3,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "reserve-protocol",
+    "symbol": "HYUSD",
+    "tvlUsd": 5221431,
+    "apyBase": 3.44179,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "GTUSDCP",
+    "tvlUsd": 4997960,
+    "apyBase": 5.2294,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "WSTETH",
+    "tvlUsd": 4882363,
+    "apyBase": 0.11,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "avantis",
+    "symbol": "USDC",
+    "tvlUsd": 4540245,
+    "apyBase": 5.42779,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "ETH",
+    "tvlUsd": 4249480,
+    "apyBase": 5.55,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "RE7USDC",
+    "tvlUsd": 4232468,
+    "apyBase": 6.65352,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "CBBTC",
+    "tvlUsd": 3754202,
+    "apyBase": 0.01,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "seamless-protocol",
+    "symbol": "USDC",
+    "tvlUsd": 3301401,
+    "apyBase": 7.70363,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "GTMSETHC",
+    "tvlUsd": 3126077,
+    "apyBase": 1.80372,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "RETH",
+    "tvlUsd": 3098820,
+    "apyBase": 0.03382,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "kiloex",
+    "symbol": "USDC",
+    "tvlUsd": 2773531,
+    "apyBase": 3.83,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "STEAKUSDC",
+    "tvlUsd": 2734932,
+    "apyBase": 5.64371,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "WELL",
+    "tvlUsd": 2368624,
+    "apyBase": 0.53751,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "USDC",
+    "tvlUsd": 2233196,
+    "apyBase": 10.35,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "CBBTC",
+    "tvlUsd": 2176555,
+    "apyBase": 0.47935,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "flat-money",
+    "symbol": "UNIT",
+    "tvlUsd": 2130141,
+    "apyBase": 66.41,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "gains-network",
+    "symbol": "USDC",
+    "tvlUsd": 2064926,
+    "apyBase": 22.49198,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "EURC",
+    "tvlUsd": 1872590,
+    "apyBase": 4.45,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "tokemak",
+    "symbol": "WETH",
+    "tvlUsd": 1847036,
+    "apyBase": 0.78846,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "PYTHETH",
+    "tvlUsd": 1826226,
+    "apyBase": 0.71484,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "compound-v3",
+    "symbol": "USDC",
+    "tvlUsd": 1808946,
+    "apyBase": 7.33147,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "compound-v3",
+    "symbol": "WETH",
+    "tvlUsd": 1800152,
+    "apyBase": 1.78012,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "CBBTC",
+    "tvlUsd": 1702603,
+    "apyBase": 0.01,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "WRSETH",
+    "tvlUsd": 1570732,
+    "apyBase": 0.0007,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "IONICWETH",
+    "tvlUsd": 1540613,
+    "apyBase": 2.50119,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "radiant-v2",
+    "symbol": "WEETH",
+    "tvlUsd": 1473053,
+    "apyBase": 0.65213,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "arcadia-v2",
+    "symbol": "WETH",
+    "tvlUsd": 1437864,
+    "apyBase": 1.12092,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "hop-protocol",
+    "symbol": "ETH",
+    "tvlUsd": 1437416,
+    "apyBase": 1.18448,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ipor-fusion",
+    "symbol": "USDC",
+    "tvlUsd": 1351232,
+    "apyBase": 10.1618,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "seamless-protocol",
+    "symbol": "WSTETH",
+    "tvlUsd": 1080104,
+    "apyBase": 0.06689,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "seamless-protocol",
+    "symbol": "CBBTC",
+    "tvlUsd": 1063003,
+    "apyBase": 1.07551,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ipor-derivatives",
+    "symbol": "USDC",
+    "tvlUsd": 1050541,
+    "apyBase": 12.71443,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "woofi-earn",
+    "symbol": "USDC",
+    "tvlUsd": 949529,
+    "apyBase": 9.21912,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "zerolend",
+    "symbol": "LBTC",
+    "tvlUsd": 878204,
+    "apyBase": 0.98045,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "SMCBBTC",
+    "tvlUsd": 833520,
+    "apyBase": 1.14603,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "STEAKETH",
+    "tvlUsd": 831324,
+    "apyBase": 1.80859,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "CBBTC",
+    "tvlUsd": 794852,
+    "apyBase": 0.19,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "WETH",
+    "tvlUsd": 774402,
+    "apyBase": 3.61708,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "GTEURCC",
+    "tvlUsd": 761442,
+    "apyBase": 10.62248,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "EURC",
+    "tvlUsd": 732583,
+    "apyBase": 11.55,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "STEAKUSDCRWA",
+    "tvlUsd": 707811,
+    "apyBase": 4.32149,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "EURC",
+    "tvlUsd": 683431,
+    "apyBase": 9.87071,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "arcadia-v2",
+    "symbol": "CBBTC",
+    "tvlUsd": 676091,
+    "apyBase": 0.88336,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "seamless-protocol",
+    "symbol": "CBETH",
+    "tvlUsd": 645590,
+    "apyBase": 0.04982,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "arcadia-v2",
+    "symbol": "USDC",
+    "tvlUsd": 637522,
+    "apyBase": 6.01822,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "USDC",
+    "tvlUsd": 634191,
+    "apyBase": 7.85851,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "STEAKUSDM",
+    "tvlUsd": 561395,
+    "apyBase": 1.15539,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "RE7RWA",
+    "tvlUsd": 538651,
+    "apyBase": 4.16152,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "VIRTUAL",
+    "tvlUsd": 524910,
+    "apyBase": 38.3615,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "STEAKEURA",
+    "tvlUsd": 524437,
+    "apyBase": 3.59787,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "seamless-protocol",
+    "symbol": "WETH",
+    "tvlUsd": 523132,
+    "apyBase": 2.00549,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "WSTETH",
+    "tvlUsd": 520385,
+    "apyBase": 0.11,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "woofi-earn",
+    "symbol": "ETH",
+    "tvlUsd": 514694,
+    "apyBase": 3.84324,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "WELL",
+    "tvlUsd": 505359,
+    "apyBase": 9.99619,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "STEAKUSDA",
+    "tvlUsd": 503917,
+    "apyBase": 3.81147,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "kiloex",
+    "symbol": "WSTETH",
+    "tvlUsd": 485640,
+    "apyBase": 1.92,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "CBBTC",
+    "tvlUsd": 419983,
+    "apyBase": 1.97,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "UUSDC",
+    "tvlUsd": 419402,
+    "apyBase": 1.095,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "sonne-finance",
+    "symbol": "WETH",
+    "tvlUsd": 412867,
+    "apyBase": 0.35191,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "PYTHUSDC",
+    "tvlUsd": 397635,
+    "apyBase": 7.81035,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "woofi-earn",
+    "symbol": "CBBTC",
+    "tvlUsd": 392253,
+    "apyBase": 3.62061,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "WETH",
+    "tvlUsd": 369157,
+    "apyBase": 0.0069,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "VIRTUAL",
+    "tvlUsd": 366843,
+    "apyBase": 33.44,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "WETH",
+    "tvlUsd": 342721,
+    "apyBase": 1.47162,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ipor-derivatives",
+    "symbol": "WSTETH",
+    "tvlUsd": 300965,
+    "apyBase": 5.29459,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "radiant-v2",
+    "symbol": "WSTETH",
+    "tvlUsd": 296419,
+    "apyBase": 1.31469,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "STEAKEURC",
+    "tvlUsd": 273755,
+    "apyBase": 9.37402,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "WSTETH",
+    "tvlUsd": 253125,
+    "apyBase": 11.36993,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "aave-v3",
+    "symbol": "USDBC",
+    "tvlUsd": 247105,
+    "apyBase": 4.43715,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "USDZ",
+    "tvlUsd": 240685,
+    "apyBase": 2.88313,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "USD+",
+    "tvlUsd": 239259,
+    "apyBase": 0.57503,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "seamless-protocol",
+    "symbol": "AERO",
+    "tvlUsd": 235845,
+    "apyBase": 1.80619,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "AERO",
+    "tvlUsd": 218999,
+    "apyBase": 7.4,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "WETH",
+    "tvlUsd": 214680,
+    "apyBase": 0.87146,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "WELL",
+    "tvlUsd": 210948,
+    "apyBase": 8.92,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "ANZ",
+    "tvlUsd": 210503,
+    "apyBase": 1.12337,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "CBBTC",
+    "tvlUsd": 205931,
+    "apyBase": 0.43,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "ETH",
+    "tvlUsd": 190336,
+    "apyBase": 1.3,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "kiloex",
+    "symbol": "WEETH",
+    "tvlUsd": 176645,
+    "apyBase": 1.92,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "USOL",
+    "tvlUsd": 169976,
+    "apyBase": 0.08116,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "radiant-v2",
+    "symbol": "CBBTC",
+    "tvlUsd": 165200,
+    "apyBase": 0.66809,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "size-credit",
+    "symbol": "VIRTUAL",
+    "tvlUsd": 165195,
+    "apyBase": 5.82888,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "size-credit",
+    "symbol": "WETH",
+    "tvlUsd": 165036,
+    "apyBase": 4.83846,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "size-credit",
+    "symbol": "CBBTC",
+    "tvlUsd": 162944,
+    "apyBase": 4.73333,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "WETH",
+    "tvlUsd": 162727,
+    "apyBase": 1.3,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "RE7CDXUSD1.1",
+    "tvlUsd": 149906,
+    "apyBase": 0.61942,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "nabla-finance",
+    "symbol": "CBBTC",
+    "tvlUsd": 149426,
+    "apyBase": 0.51801,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "USDZ",
+    "tvlUsd": 148329,
+    "apyBase": 1.79284,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "ETH",
+    "tvlUsd": 147951,
+    "apyBase": 1.3,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "IONICUSDC",
+    "tvlUsd": 144738,
+    "apyBase": 5.3796,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "MMAI",
+    "tvlUsd": 144266,
+    "apyBase": 3.12175,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "CBBTC",
+    "tvlUsd": 138365,
+    "apyBase": 16.57054,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "size-credit",
+    "symbol": "CBETH",
+    "tvlUsd": 137613,
+    "apyBase": 5.82888,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "MET",
+    "tvlUsd": 132054,
+    "apyBase": 2.19212,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "USDC",
+    "tvlUsd": 123290,
+    "apyBase": 11.42,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "USDC",
+    "tvlUsd": 121139,
+    "apyBase": 0.92652,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "MDEGEN",
+    "tvlUsd": 114551,
+    "apyBase": 0.00381,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "WEETH",
+    "tvlUsd": 112593,
+    "apyBase": 0.00028,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "spectra-v2",
+    "symbol": "WSUPEROETHB",
+    "tvlUsd": 109264,
+    "apyBase": 6.75486,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "spectra-v2",
+    "symbol": "WSUPEROETHB",
+    "tvlUsd": 109264,
+    "apyBase": 6.83667,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "nabla-finance",
+    "symbol": "WETH",
+    "tvlUsd": 109115,
+    "apyBase": 0.60378,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "clearpool-lending",
+    "symbol": "USDC",
+    "tvlUsd": 103229,
+    "apyBase": 13.5,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "yearn-finance",
+    "symbol": "CBBTC",
+    "tvlUsd": 102340,
+    "apyBase": 6.35991,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "bakerfi",
+    "symbol": "ETH",
+    "tvlUsd": 94384,
+    "apyBase": 6.16167,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "radiant-v2",
+    "symbol": "WETH",
+    "tvlUsd": 94157,
+    "apyBase": 22.33173,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "zerolend",
+    "symbol": "WETH",
+    "tvlUsd": 85663,
+    "apyBase": 0.44069,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "bakerfi",
+    "symbol": "ETH",
+    "tvlUsd": 84934,
+    "apyBase": 6.38474,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "WSTETH",
+    "tvlUsd": 80355,
+    "apyBase": 0.11,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "WSTETH",
+    "tvlUsd": 80031,
+    "apyBase": 0.11,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "EXTRA",
+    "tvlUsd": 78103,
+    "apyBase": 13.82816,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "WETH",
+    "tvlUsd": 76514,
+    "apyBase": 2.56483,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "BSDETH",
+    "tvlUsd": 73843,
+    "apyBase": 4.03237,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "seamless-protocol",
+    "symbol": "EURC",
+    "tvlUsd": 73405,
+    "apyBase": 4.8995,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "KLIMA",
+    "tvlUsd": 73288,
+    "apyBase": 13.55617,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "WSTETH",
+    "tvlUsd": 70564,
+    "apyBase": 1.08774,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "CBBTC",
+    "tvlUsd": 68433,
+    "apyBase": 0.15177,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "WETH",
+    "tvlUsd": 68335,
+    "apyBase": 5.29891,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "zerolend",
+    "symbol": "CBETH",
+    "tvlUsd": 62838,
+    "apyBase": 1.52636,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ironclad-finance",
+    "symbol": "WETH",
+    "tvlUsd": 61595,
+    "apyBase": 0.09082,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "kiloex",
+    "symbol": "CBBTC",
+    "tvlUsd": 61004,
+    "apyBase": 1.92,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "yearn-finance",
+    "symbol": "WETH",
+    "tvlUsd": 58555,
+    "apyBase": 6.43462,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "zerolend",
+    "symbol": "CBBTC",
+    "tvlUsd": 57699,
+    "apyBase": 1.28638,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "radiant-v2",
+    "symbol": "USDC",
+    "tvlUsd": 55849,
+    "apyBase": 5.97708,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "yearn-finance",
+    "symbol": "EURC",
+    "tvlUsd": 52643,
+    "apyBase": 11.31925,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "radiant-v2",
+    "symbol": "CBETH",
+    "tvlUsd": 51535,
+    "apyBase": 11.62761,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "size-credit",
+    "symbol": "AIXBT",
+    "tvlUsd": 47948,
+    "apyBase": 5.82888,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "HYUSD",
+    "tvlUsd": 47655,
+    "apyBase": 0.84661,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "AERO",
+    "tvlUsd": 47502,
+    "apyBase": 1.63298,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "yel-finance",
+    "symbol": "YEL",
+    "tvlUsd": 46582,
+    "apyBase": 18.26775,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "OVN",
+    "tvlUsd": 45129,
+    "apyBase": 0.0334,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "TBTC",
+    "tvlUsd": 43450,
+    "apyBase": 0.00001,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "AERO",
+    "tvlUsd": 41936,
+    "apyBase": 0.78,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "moonwell",
+    "symbol": "LBTC",
+    "tvlUsd": 40397,
+    "apyBase": 0.01998,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "fluid-lending",
+    "symbol": "CBBTC",
+    "tvlUsd": 38376,
+    "apyBase": 0.01,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "compound-v3",
+    "symbol": "USDBC",
+    "tvlUsd": 38076,
+    "apyBase": 2.2248,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "KLIMA",
+    "tvlUsd": 36558,
+    "apyBase": 12.12,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "zerolend",
+    "symbol": "AERO",
+    "tvlUsd": 36122,
+    "apyBase": 0.20931,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "CBETH",
+    "tvlUsd": 36004,
+    "apyBase": 0.02,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "SUPEROETHB",
+    "tvlUsd": 33458,
+    "apyBase": 8.11763,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "RETH",
+    "tvlUsd": 32353,
+    "apyBase": 0.02,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "zerolend",
+    "symbol": "USDC",
+    "tvlUsd": 31355,
+    "apyBase": 2.27128,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "CDXUSD",
+    "tvlUsd": 30065,
+    "apyBase": 0.03777,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "USDC",
+    "tvlUsd": 28738,
+    "apyBase": 0.03148,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "WETH",
+    "tvlUsd": 28462,
+    "apyBase": 4.74462,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "SCALE",
+    "tvlUsd": 27706,
+    "apyBase": 0.00001,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "EUSD",
+    "tvlUsd": 26994,
+    "apyBase": 9.80346,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "CBBTC",
+    "tvlUsd": 26209,
+    "apyBase": 0.14242,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "morpho-blue",
+    "symbol": "TESTDN",
+    "tvlUsd": 25869,
+    "apyBase": 6.97325,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ironclad-finance",
+    "symbol": "USDBC",
+    "tvlUsd": 25410,
+    "apyBase": 1.18991,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "seamless-protocol",
+    "symbol": "USDBC",
+    "tvlUsd": 23085,
+    "apyBase": 8.70382,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "DOLA",
+    "tvlUsd": 21704,
+    "apyBase": 1.86006,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "reserve-protocol",
+    "symbol": "MAAT",
+    "tvlUsd": 20564,
+    "apyBase": 4.16738,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "hyperdrive",
+    "symbol": "MWUSDC",
+    "tvlUsd": 19835,
+    "apyBase": 10.25068,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "yel-finance",
+    "symbol": "USDC",
+    "tvlUsd": 18686,
+    "apyBase": 23.5332,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "DEGEN",
+    "tvlUsd": 18377,
+    "apyBase": 0.00037,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "WETH",
+    "tvlUsd": 18172,
+    "apyBase": 2.92588,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "WETH",
+    "tvlUsd": 18172,
+    "apyBase": 2.97869,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "spectra-v2",
+    "symbol": "FUSDC",
+    "tvlUsd": 18163,
+    "apyBase": 11.07304,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "spectra-v2",
+    "symbol": "FUSDC",
+    "tvlUsd": 18163,
+    "apyBase": 10.75168,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "sonne-finance",
+    "symbol": "AERO",
+    "tvlUsd": 16120,
+    "apyBase": 0.54779,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "STAR",
+    "tvlUsd": 15593,
+    "apyBase": 0.06102,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "WETH",
+    "tvlUsd": 15532,
+    "apyBase": 4.85996,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "DOLA",
+    "tvlUsd": 15524,
+    "apyBase": 1.67,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "USDBC",
+    "tvlUsd": 15190,
+    "apyBase": 0.16729,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "ironclad-finance",
+    "symbol": "USDC",
+    "tvlUsd": 14876,
+    "apyBase": 0.71382,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "SCALE",
+    "tvlUsd": 14735,
+    "apyBase": 0.00002,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ironclad-finance",
+    "symbol": "AERO",
+    "tvlUsd": 14063,
+    "apyBase": 0.2905,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "WSTETH",
+    "tvlUsd": 14062,
+    "apyBase": 1.62902,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "RFL",
+    "tvlUsd": 14046,
+    "apyBase": 13.17685,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "yearn-finance",
+    "symbol": "WETH",
+    "tvlUsd": 13637,
+    "apyBase": 8.08922,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "VIRTUAL",
+    "tvlUsd": 13088,
+    "apyBase": 16.85749,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "USDC",
+    "tvlUsd": 12454,
+    "apyBase": 9.14504,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "ionic-protocol",
+    "symbol": "OGN",
+    "tvlUsd": 12346,
+    "apyBase": 0.00005,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "spectra-v2",
+    "symbol": "FEURC",
+    "tvlUsd": 12087,
+    "apyBase": 11.95367,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "spectra-v2",
+    "symbol": "FEURC",
+    "tvlUsd": 12087,
+    "apyBase": 8.92339,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "KLIMA",
+    "tvlUsd": 11993,
+    "apyBase": 0.07802,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "yearn-finance",
+    "symbol": "USDC",
+    "tvlUsd": 11966,
+    "apyBase": 9.14929,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "reserve-protocol",
+    "symbol": "VAYA",
+    "tvlUsd": 11536,
+    "apyBase": 3.40103,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "yel-finance",
+    "symbol": "WETH",
+    "tvlUsd": 11126,
+    "apyBase": 15.20345,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "harvest-finance",
+    "symbol": "AERO",
+    "tvlUsd": 10761,
+    "apyBase": 5.46,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "EURC",
+    "tvlUsd": 10708,
+    "apyBase": 0.00009,
+    "stablecoin": true
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "SPECTRA",
+    "tvlUsd": 10651,
+    "apyBase": 0.82199,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "MSETH",
+    "tvlUsd": 10590,
+    "apyBase": 3.46625,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "extra-finance-leverage-farming",
+    "symbol": "SNX",
+    "tvlUsd": 10381,
+    "apyBase": 6.47924,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "ironclad-finance",
+    "symbol": "CBBTC",
+    "tvlUsd": 10293,
+    "apyBase": 0.01177,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "nabla-finance",
+    "symbol": "WETH",
+    "tvlUsd": 10110,
+    "apyBase": 6.32394,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "yel-finance",
+    "symbol": "ANON",
+    "tvlUsd": 10056,
+    "apyBase": 81.71614,
+    "stablecoin": false
+  },
+  {
+    "chain": "Base",
+    "project": "impermax-finance",
+    "symbol": "ALB",
+    "tvlUsd": 10029,
+    "apyBase": 0.00001,
+    "stablecoin": false
+  }
+]
