@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 
+import asyncio
 from src.agent import CdpAgent
 from src.wallet import AgentWallet
 from models.schemas import QueryRequest, QueryUserWallet, QueryMint, QuerySwap, QueryStake
@@ -16,9 +17,9 @@ app = FastAPI(
     version="1.0.0"
 )
 
-JSON_FILE = "models/knowledge.json"
+URL_KNOWLEDGE = "https://eze-api.vercel.app/staking"
 
-cdp_agent = CdpAgent(knowledge_file=JSON_FILE)
+cdp_agent = CdpAgent(url=URL_KNOWLEDGE)
 agent_wallet = AgentWallet()
 
 @app.on_event("startup")
@@ -34,19 +35,18 @@ async def query_agent_sync(request: QueryRequest):
     try:
         start_time = time.time()
         
-        response = await cdp_agent.process_query(
-            query=request.query,
-            thread_id=request.thread_id
-        )
+        response = await asyncio.wait_for(
+            cdp_agent.process_query(query=request.query, thread_id=request.thread_id
+            ), timeout=30.0)
 
         parsed_response = json.loads(response) if isinstance(response, str) else response
         formatted_response = {
-            "chain": str(parsed_response.get("chain", "")),
-            "project": str(parsed_response.get("project", "")),
-            "symbol": str(parsed_response.get("symbol", "")),
-            "tvlUsd": int(parsed_response.get("tvlUsd", 0)),
-            "apyBase": float(parsed_response.get("apyBase", 0.0)),
-            "stablecoin": parsed_response.get("stablecoin", "false").lower() == "true"
+            "id_project": str(parsed_response.get("id_project", ""))
+            # "chain": str(parsed_response.get("chain", "")),
+            # "symbol": str(parsed_response.get("symbol", "")),
+            # "tvlUsd": int(parsed_response.get("tvlUsd", 0)),
+            # "apyBase": float(parsed_response.get("apyBase", 0.0)),
+            # "stablecoin": parsed_response.get("stablecoin", "false").lower() == "true"
         }
         processing_time = time.time() - start_time
 
