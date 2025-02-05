@@ -1,22 +1,29 @@
-## Requirements
-- Python 3.10+
-- Poetry for package management and tooling
-  - [Poetry Installation Instructions](https://python-poetry.org/docs/#installation)
-- [CDP API Key](https://portal.cdp.coinbase.com/access/api)
-- [OpenAI API Key](https://platform.openai.com/docs/quickstart#create-and-export-an-api-key)
-
-## Installation
+## Starting
+Clone repository:
 ```bash
-poetry install
+  git clone https://github.com/EZEFinance/eze-agent.git
 ```
 
-### Set ENV Vars
-- Ensure the following ENV Vars are set:
-  - "CDP_API_KEY_NAME"
-  - "CDP_API_KEY_PRIVATE_KEY"
-  - "OPENAI_API_KEY"
-  - "NETWORK_ID" (Defaults to `base-sepolia`)
+## Requirements
+- Python 3.10+
+- Anaconda/miniconda
 
+## Export Environment Variables
 ```bash
-make run
+export CDP_API_KEY_NAME="cdp-api-key-name"
+export CDP_API_KEY_PRIVATE_KEY="cdp-api-key-private-key"
+export OPENAI_API_KEY="openai-api-key"
+export NETWORK_ID="base-sepolia"
+```
+
+## Installation
+ - Create conda environment and activate
+ - Install requirements
+ ```bash
+  pip install -r requirements.txt
+ ```
+
+## Run
+```bash
+  python main.py
 ```
