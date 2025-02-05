@@ -1,7 +1,7 @@
 import os
 import orjson
 from cdp import Cdp, Wallet, WalletData
-from utils import get_env_variable
+from src.utils import get_env_variable
 
 class AgentWallet:
     def __init__(self):
@@ -58,7 +58,7 @@ class AgentWallet:
     # Fund wallet via mpc
     def _fund_wallet(self, user_address):
         wallet = self.fetch_data(user_address)
-        faucet = wallet.faucet(asset_id='usdc')
+        faucet = wallet.faucet(asset_id='eth')
         faucet.wait()
         return faucet.transaction_hash
     
@@ -94,7 +94,7 @@ class AgentWallet:
             case "aave":
                 return "0x55C30Ff712b97B3692fd4f838D13D84DE8Be38B4"
     
-    def _mint(self, user_address, asset_id, amount):
+    def mint(self, user_address, asset_id, amount):
         amount = int(amount) * (10 ** 6)
         abi = self._read_abi("./abi/MockToken.json")
         
@@ -113,7 +113,7 @@ class AgentWallet:
         return invocation.transaction_hash
     
     
-    def _swap(self, user_address, spender, token_in, token_out, amount):
+    def swap(self, user_address, spender, token_in, token_out, amount):
         approve_abi = self._read_abi("./abi/MockToken.json")
         amount = int(amount) * (10 ** 6)
         
@@ -139,7 +139,7 @@ class AgentWallet:
         
         return invocation.transaction_hash
     
-    def _stake(self, user_address, asset_id, protocol, spender, days, amount):
+    def stake(self, user_address, asset_id, protocol, spender, days, amount):
         approve_abi = self._read_abi("./abi/MockToken.json")
         amount = int(amount) * (10 ** 6)
         

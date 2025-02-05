@@ -1,4 +1,3 @@
-import ast
 import time
 import json
 
@@ -7,7 +6,8 @@ from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
 
 from src.agent import CdpAgent
-from models.schemas import QueryRequest, QueryResponse
+from src.wallet import AgentWallet
+from models.schemas import QueryRequest, QueryUserWallet, QueryMint, QuerySwap, QueryStake
 load_dotenv()
 
 app = FastAPI(
@@ -19,6 +19,7 @@ app = FastAPI(
 JSON_FILE = "models/knowledge.json"
 
 cdp_agent = CdpAgent(knowledge_file=JSON_FILE)
+agent_wallet = AgentWallet()
 
 @app.on_event("startup")
 async def startup_event():
@@ -62,6 +63,46 @@ async def query_agent_sync(request: QueryRequest):
             status_code=500,
             detail=f"Query processing failed: {str(e)}"
         )
+        
+@app.post("/action/create-wallet")
+async def create_wallet(request: QueryUserWallet):
+    await agent_wallet.create_wallet(
+            user_address=request.user_address
+        )
+    response = {"address": agent_wallet._check_address(request.user_address)}
+    
+    return JSONResponse(content=response)
+    
+    
+@app.post("/action/get-wallet")
+async def get_wallet(request: QueryUserWallet):
+    response = {"address": await agent_wallet._check_address(request.user_address)}
+    return JSONResponse(content=response)
+
+
+@app.post("/action/get-eth-faucet")
+async def get_eth_faucet(request: QueryUserWallet):
+    response = {"txhash": await agent_wallet._fund_wallet(request.user_address)}
+    return JSONResponse(content=response)
+
+
+@app.post("/action/mint")
+async def mint(request: QueryMint):
+    response = {"txhash": await agent_wallet.mint(request.user_address, request.asset_id, request.amount)}
+    return JSONResponse(content=response)
+
+
+@app.post("/action/swap")
+async def swap(request: QuerySwap):
+    response = {"txhash": await agent_wallet.swap(request.user_address, request.spender, request.token_in, request.token_out, request.amount)}
+    return JSONResponse(content=response)
+
+
+@app.post("/action/stake")
+async def stake(request: QueryStake):
+    response = {"txhash": await agent_wallet.stake(request.user_address, request.asset_id, request.protocol, request.spender, request.days, request.amount)}
+    return JSONResponse(content=response)
+
 
 @app.get("/health")
 async def health_check():
