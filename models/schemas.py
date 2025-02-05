@@ -31,3 +31,7 @@ class QueryStake(BaseModel):
     protocol: str
     spender: str
     amount: str
+    
+class QueryUnstake(BaseModel):
+    user_address: str
+    protocol: str

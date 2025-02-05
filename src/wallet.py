@@ -164,6 +164,21 @@ class AgentWallet:
         invocation.wait()
         
         return invocation.transaction_hash
+    
+    
+    def unstake(self, user_address, protocol):        
+        abi = self._read_abi("./abi/MockStake.json")
+        wallet = self.fetch_data(user_address)
+        invocation = wallet.invoke_contract(
+            contract_address=self._get_protocol_ca(protocol),
+            abi=abi,
+            method="withdrawAll"
+        )
+
+        invocation.wait()
+        
+        return invocation.transaction_hash
+
 
     def _read_abi(self, abi_path):
         with open(abi_path, 'r') as file:

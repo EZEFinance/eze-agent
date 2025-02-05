@@ -8,7 +8,7 @@ from fastapi.responses import JSONResponse
 import asyncio
 from src.agent import CdpAgent
 from src.wallet import AgentWallet
-from models.schemas import QueryRequest, QueryUserWallet, QueryMint, QuerySwap, QueryStake
+from models.schemas import *
 load_dotenv()
 
 app = FastAPI(
@@ -96,6 +96,11 @@ async def swap(request: QuerySwap):
 @app.post("/action/stake")
 async def stake(request: QueryStake):
     response = {"txhash": await agent_wallet.stake(request.user_address, request.asset_id, request.protocol, request.spender, request.amount)}
+    return JSONResponse(content=response)
+
+@app.post("/action/unstake")
+async def stake(request: QueryUnstake):
+    response = {"txhash": await agent_wallet.unstake(request.user_address, request.protocol)}
     return JSONResponse(content=response)
 
 
