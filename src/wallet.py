@@ -139,7 +139,7 @@ class AgentWallet:
         
         return invocation.transaction_hash
     
-    def stake(self, user_address, asset_id, protocol, spender, days, amount):
+    def stake(self, user_address, asset_id, protocol, spender, amount):
         approve_abi = self._read_abi("./abi/MockToken.json")
         amount = int(amount) * (10 ** 6)
         
@@ -158,7 +158,7 @@ class AgentWallet:
             contract_address=self._get_protocol_ca(protocol),
             abi=abi,
             method="stake",
-            args={"_days": str(days), "_amount": str(int(amount))}
+            args={"_days": str(0), "_amount": str(int(amount))}
         )
 
         invocation.wait()

@@ -30,5 +30,4 @@ class QueryStake(BaseModel):
     asset_id: str
     protocol: str
     spender: str
-    days: str
     amount: str

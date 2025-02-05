@@ -95,7 +95,7 @@ async def swap(request: QuerySwap):
 
 @app.post("/action/stake")
 async def stake(request: QueryStake):
-    response = {"txhash": await agent_wallet.stake(request.user_address, request.asset_id, request.protocol, request.spender, request.days, request.amount)}
+    response = {"txhash": await agent_wallet.stake(request.user_address, request.asset_id, request.protocol, request.spender, request.amount)}
     return JSONResponse(content=response)
 
 
