@@ -42,11 +42,6 @@ async def query_agent_sync(request: QueryRequest):
         parsed_response = json.loads(response) if isinstance(response, str) else response
         formatted_response = {
             "id_project": str(parsed_response.get("id_project", ""))
-            # "chain": str(parsed_response.get("chain", "")),
-            # "symbol": str(parsed_response.get("symbol", "")),
-            # "tvlUsd": int(parsed_response.get("tvlUsd", 0)),
-            # "apyBase": float(parsed_response.get("apyBase", 0.0)),
-            # "stablecoin": parsed_response.get("stablecoin", "false").lower() == "true"
         }
         processing_time = time.time() - start_time
 
