@@ -91,7 +91,7 @@ async def create_wallet(request: QueryUserWallet):
     await agent_wallet.create_wallet(
             user_address=request.user_address
         )
-    response = {"address": agent_wallet._check_address(request.user_address)}
+    response = {"address": await agent_wallet._check_address(request.user_address)}
     
     return JSONResponse(content=response)
     
