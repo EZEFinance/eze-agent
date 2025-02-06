@@ -2,12 +2,12 @@ import time
 import json
 
 from dotenv import load_dotenv
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Body
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 
 import asyncio
-from src.agent import CdpAgent
+from src.agent import CdpAgent, CdpAgentClassifier
 from src.wallet import AgentWallet
 from models.schemas import *
 load_dotenv()
@@ -28,13 +28,31 @@ app.add_middleware(
 
 URL_KNOWLEDGE = "https://eze-api.vercel.app/staking"
 
+cdp_agent_classifier = CdpAgentClassifier()
 cdp_agent = CdpAgent(url=URL_KNOWLEDGE)
 agent_wallet = AgentWallet()
 
 @app.on_event("startup")
 async def startup_event():
     """Initialize agent when the API starts."""
+    await cdp_agent_classifier.initialize()
     await cdp_agent.initialize()
+
+
+@app.post("/generate-risk-profile")
+async def assess_risk(data: str = Body(..., embed=True)):
+    """
+    Endpoint to assess risk profile based on user responses.
+    Returns a JSON with risk assessment level.
+    """
+    try:
+        response = await cdp_agent_classifier.process_query(query=data)
+        parsed_response = json.loads(response)
+        
+        return JSONResponse(content=parsed_response)
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 @app.post("/query")
 async def query_agent_sync(request: QueryRequest):
