@@ -4,6 +4,7 @@ import json
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 
 import asyncio
 from src.agent import CdpAgent
@@ -15,6 +16,14 @@ app = FastAPI(
     title="CDP Agent API",
     description="API for interacting with CDP Agent with Knowledge Base",
     version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 URL_KNOWLEDGE = "https://eze-api.vercel.app/staking"
