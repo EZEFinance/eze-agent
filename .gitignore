@@ -1,3 +1,6 @@
 .env
 data/wallet.json
 wallet_data.txt
+__pycache__/
+models/__pycache__/
+src/__pycache__/
