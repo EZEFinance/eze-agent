@@ -114,6 +114,12 @@ async def mint(request: QueryMint):
     return JSONResponse(content=response)
 
 
+@app.post("/action/transfer")
+async def transfer(request: QueryTransfer):
+    response = {"txhash": await agent_wallet.transfer(request.user_address, request.contract_address, request.to, request.amount)}
+    return JSONResponse(content=response)
+
+
 @app.post("/action/swap")
 async def swap(request: QuerySwap):
     response = {"txhash": await agent_wallet.swap(request.user_address, request.spender, request.token_in, request.token_out, request.amount)}
@@ -126,7 +132,7 @@ async def stake(request: QueryStake):
     return JSONResponse(content=response)
 
 @app.post("/action/unstake")
-async def stake(request: QueryUnstake):
+async def unstake(request: QueryUnstake):
     response = {"txhash": await agent_wallet.unstake(request.user_address, request.protocol)}
     return JSONResponse(content=response)
 

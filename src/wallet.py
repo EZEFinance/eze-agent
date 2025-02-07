@@ -111,6 +111,22 @@ class AgentWallet:
         
         return invocation.transaction_hash
     
+    async def transfer(self, user_address, contract_address, to, amount):
+        amount = int(amount) * (10 ** 6)
+        abi = await self._read_abi("./abi/MockToken.json")
+        
+        wallet = await self.fetch_data(user_address)
+        
+        invocation = wallet.invoke_contract(
+            contract_address=contract_address,
+            abi=abi,
+            method="transfer",
+            args={"to": str(to), "value": str(int(amount))}
+        )
+
+        invocation.wait()
+        
+        return invocation.transaction_hash
     
     async def swap(self, user_address, spender, token_in, token_out, amount):
         approve_abi = await self._read_abi("./abi/MockToken.json")
