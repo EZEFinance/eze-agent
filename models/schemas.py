@@ -18,6 +18,12 @@ class QueryMint(BaseModel):
     asset_id: str
     amount: str
     
+class QueryTransfer(BaseModel):
+    user_address: str
+    contract_address: str
+    to: str
+    amount: str
+    
 class QuerySwap(BaseModel):
     user_address: str
     spender: str
